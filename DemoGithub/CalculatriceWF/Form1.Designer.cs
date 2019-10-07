@@ -28,12 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.checkedListBoxOperations = new System.Windows.Forms.CheckedListBox();
+            this.lblResultat = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // checkedListBoxOperations
+            // 
+            this.checkedListBoxOperations.FormattingEnabled = true;
+            this.checkedListBoxOperations.Items.AddRange(new object[] {
+            "addition",
+            "multiplication",
+            "soustraction",
+            "division"});
+            this.checkedListBoxOperations.Location = new System.Drawing.Point(23, 32);
+            this.checkedListBoxOperations.Name = "checkedListBoxOperations";
+            this.checkedListBoxOperations.Size = new System.Drawing.Size(120, 94);
+            this.checkedListBoxOperations.TabIndex = 0;
+            this.checkedListBoxOperations.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.checkedListBoxOperations_ItemCheck);
+            // 
+            // lblResultat
+            // 
+            this.lblResultat.AutoSize = true;
+            this.lblResultat.Location = new System.Drawing.Point(23, 143);
+            this.lblResultat.Name = "lblResultat";
+            this.lblResultat.Size = new System.Drawing.Size(0, 13);
+            this.lblResultat.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblResultat);
+            this.Controls.Add(this.checkedListBoxOperations);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.CheckedListBox checkedListBoxOperations;
+        private System.Windows.Forms.Label lblResultat;
     }
 }
 

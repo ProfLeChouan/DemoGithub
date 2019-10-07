@@ -39,3 +39,4 @@ M:\420-217\Cours13\Demo\217_TP1_Demo-projetInitial_depart\DemoGithub\Calculatric
 M:\420-217\Cours13\Demo\217_TP1_Demo-projetInitial_depart\DemoGithub\CalculatriceWF\obj\Debug\CalculatriceWF.csproj.CoreCompileInputs.cache
 M:\420-217\Cours13\Demo\217_TP1_Demo-projetInitial_depart\DemoGithub\CalculatriceWF\obj\Debug\CalculatriceWF.exe
 M:\420-217\Cours13\Demo\217_TP1_Demo-projetInitial_depart\DemoGithub\CalculatriceWF\obj\Debug\CalculatriceWF.pdb
+M:\420-217\Cours13\Demo\217_TP1_Demo-projetInitial_depart\DemoGithub\CalculatriceWF\obj\Debug\CalculatriceWF.Form1.resources

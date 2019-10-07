@@ -78,7 +78,7 @@ namespace Calculatrice
             EnvoieNouveauxCalculs($"{MSG_RETIRER_OP}\n");
         }
 
-        public string GetMesCalculs()
+        private string GetMesCalculs()
         {
             string resultats = "";
             if (operations != null)
